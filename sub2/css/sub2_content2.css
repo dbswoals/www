@@ -1,0 +1,41 @@
+/* 시설안내 내용 영역 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+
+.in{margin-top: 120px;}
+.in ul{margin-bottom: 120px; margin-left: 40px;}
+.in h3{font-size: 2.5em; font-weight: 500; text-align: center; margin-bottom: 70px;}
+.in li{overflow: hidden; position: relative;}
+.in img{float: left; margin-right: 70px;}
+.in dl{background: #0064bf;position: absolute; left: 500px; top: 270px; color: #fff;
+width: 600px; height: 300px; border-radius: 20px; box-shadow: 1px 10px 10px 3px rgba(0,0,0,.5);}
+.in dt{font-size: 2em; font-weight: 500;  margin-top: 30px; margin-left: 20px;}
+.in dd{margin-top:15px; margin-left: 20px; font-size: 1.1em;}
+.in strong{display: block; margin-bottom: 15px; }
+
+
+.btn{overflow: hidden; }
+.btn .next{font-size: 2.2em; box-sizing: border-box; width: 60px; height: 60px;
+text-align: center; background: #0b72d3; color: #999;position: absolute; top:278px; right: 60px;
+transition: all .5s ease; padding: 15px; border-radius: 20px;}
+.btn .next:hover{background: #258dee; color: #fff;}
+.btn .back{font-size: 2.2em; box-sizing: border-box; width: 60px; height: 60px;
+text-align: center; background: #0b72d3; color: #999;position: absolute; top: 278px; right: 120px;
+transition: all .5s ease; padding: 15px; border-radius: 20px;}
+.btn .back:hover{background: #258dee; color: #fff;}
+
+.out .btn .next{position: absolute; left: 550px;}
+.out .btn .back{position: absolute; left: 480px;}
+
+a{color: #333; text-decoration: none;}
+.contlist{display: none;}
+/* .tabs{width: 1200px; margin: 0 auto;} */
+.tabs ul{overflow: hidden;  margin: 0 auto; margin-top: 60px; margin-bottom: 120px;}
+.tabs li{width: 50%; float: left; text-align: center;} 
+.tabs li a{font-size: 1.8em; border: 1px solid #ccc;width: 400px; padding: 20px;}
+.tabs li:hover a{background: #d8d8d8; color: #0064bf;}
+.tabs a.tab1{left:0; top:0;  margin-left: 160px;}
+.tabs a.tab2{left:84px; top:0;}
+.tabs .current{background: #0064bf; color: #fff;}
+.contlist {margin-top:50px;
+    padding:15px;line-height:1.5em;} 

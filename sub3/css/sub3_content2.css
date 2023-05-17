@@ -1,0 +1,77 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif; }
+
+.title_area p{margin-bottom: 20px;}
+
+.coin{margin-top: 120px; overflow: hidden;}
+.coin a{}
+.coin ul{overflow: hidden; }
+.coin li{float: left; overflow: hidden; margin-right: 50px; margin-left: 20px; transition: all .5s ease;}
+.coin img{transition: all .5s ease;}
+.coin dl{background: #fff; color: #333; width: 525px; 
+    position: relative; top: -50px;padding-bottom: 20px; transition: all .5s ease;}
+.coin dt{font-size: 1.5em; font-weight: 400;  margin-left: 30px; padding-top: 10px; color: #333;}
+.coin dd{font-size: 2em; font-weight: 500; margin-left: 30px; color: #333;}
+.coin span{float: right; position: relative; top: -100px; right: 20px; margin-right: 10px;
+font-size: 1.25em; color: #0064bf;}
+
+.pop_menu li:hover img{transform: scale(1.1);}
+.pop_menu li:hover dl{background: #0064bf;}
+.pop_menu li:hover dt{color: #fff;}
+.pop_menu li:hover dd{color: #fff;}
+.pop_menu li:hover span{color: #fff;}
+.pop .modal_box{position: fixed; left: 0; top: 0; z-index: 50; width: 100%; height: 100%; 
+    background: #000; opacity: .7; display: none;}
+
+.pop .pop_btn{position:absolute;z-index: 60; top:50%; margin-top: -100px; font-size: 100px; width: 100%; display: none;}
+.pop .pop_btn a{display: block; position: fixed; top:50%; left:50%; color: #fff; opacity: .4; transition: all .5s;}
+.pop .pop_btn a:hover{opacity: .9;}
+.pop .pop_btn .pre{margin-left: -500px;}
+.pop .pop_btn .next{margin-left: 430px;}
+
+.pop  .popup{position: fixed; top: 60%; left: 50%; margin: -300px 0 0 -300px; 
+    width: 600px; height: 600px; background: #fff; box-shadow: 1px 3px 7px 0px #666;
+    z-index: 60; display:none;}
+.pop  .popup img{width: 94%; margin:20px 3%;}
+.pop  .popup dl{width: 94%; margin:10px 3%; text-align: center;}
+.pop  .popup dt{font-size: 2em; font-weight: bold; margin-top: 70px; margin-bottom: 10px; color: #0064bf;}
+.pop  .popup dd{font-size: 1em;}
+.pop  .popup span{font-size:1.5em ; position: absolute;
+       right: 20px; top: 550px; color: #333;}
+
+.pop  .popup .close_btn{position: absolute; top: 25px; right: 5px; 
+    display: block; text-indent: -999px; overflow: hidden; width: 32px; 
+    height: 32px; padding: 9px 9px; z-index: 100;}
+
+
+
+.use{display: flex; margin-top: 120px; margin-bottom: 120px; }
+.use a{ transition: all .5s ease;}
+.use a:hover{background: #fff; color: #0064bf;}
+
+.use1{background: #f3f3f3; float:left; margin-right: 100px;width: 450px; 
+height: 300px; margin-left: 60px; box-shadow: 1px 2px 10px 1px; }
+.use1 dl{}
+.use1 dt{margin-top: 30px; text-align: center; position: relative; font-size: 1.5em;}
+.use1 dt::before{content: ""; display: block; width: 100px; height: 1px; position: absolute;
+left: 0; top: 20px; background: #0064bf;}
+.use1 dt::after{content: ""; display: block; width: 100px; height: 1px; position: absolute;
+    right: 0; top: 20px; background: #0064bf;}
+.use1 dd{margin-bottom: 30px; text-align: center; margin-top: 70px; font-size: 1.25em; font-weight: 400;
+width: 300px; margin-left: 65px;}
+.use1 a{text-align: center; display: block; border: 1px solid #ccc; margin-right: 350px;
+position: relative; left: 170px;}
+
+.use2{background: #f3f3f3; margin-right: 100px;width: 450px; height: 300px; margin-left: 60px;
+box-shadow: 1px 2px 10px 1px; }
+.use2 dl{}
+.use2 dt{margin-top: 30px; text-align: center; position: relative; font-size: 1.5em;}
+.use2 dt::before{content: ""; display: block; width: 100px; height: 1px; position: absolute;
+left: 0; top: 20px; background: #0064bf;}
+.use2 dt::after{content: ""; display: block; width: 100px; height: 1px; position: absolute;
+right: 0; top: 20px; background: #0064bf;}
+.use2 dd{margin-bottom: 30px; text-align: center; margin-top: 70px; font-size: 1.25em; font-weight: 400;
+width: 300px; margin-left: 65px; }
+.use2 a{text-align: center; display: block; border: 1px solid #ccc; margin-right: 350px;
+position: relative; left: 170px;}

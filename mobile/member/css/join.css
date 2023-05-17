@@ -1,0 +1,35 @@
+body{background: #f3f3f3;}
+
+.btn a{width: 60px; height: 60px; text-align: center; display: block;}
+.btn a:nth-of-type(1){float: left; margin-left: 10px; margin-top: -30px; position: relative; }
+.btn li:nth-of-type(2) a{float: right;}
+.btn i{font-size: 2em; color: #999;}
+
+#content{background: #fff; margin: 0 auto; border-radius: 20px; margin-bottom: 50px;
+box-shadow: 2px 2px 20px 1px rgba(0,0,0,.2); font-family: 'Noto Sans KR', sans-serif; 
+width: 80%; margin-top: 50px;}
+#content h2{font-size: 2em; font-weight: 500; text-align: center; padding-top:50px; margin-bottom: 70px;}
+
+#content li{font-size: 1.2em; font-weight: 400; margin-top: 30px; margin-bottom: 10px; margin-left: 15%;}
+label{display: block;margin-bottom: 10px;}
+li input{width: 80%; height: 35px; border-radius: 10px; border: 1px solid #999; }
+
+#content span{display: block; margin-bottom: 10px;} 
+#hp1{width: 23.33%; height: 35px; border-radius: 10px; box-sizing: border-box; float: left;}
+#hp2,#hp3{width: 23.33%;height: 35px; border-radius: 10px; box-sizing: border-box;float: left;}
+
+#content li::after{content: ''; display: block; clear: both;}
+#content li:nth-last-of-type(2) span:nth-of-type(1){display: block; width: 100%;}
+#content li:nth-last-of-type(2) span:nth-of-type(2){display: inline-block; width: 5%; float: left; text-align: center;}
+#content li:nth-last-of-type(2) span:nth-of-type(3){display: inline-block; width: 5%; float: left; text-align: center;}
+#content li:nth-last-of-type(1) span:nth-of-type(2){display: inline-block; width: 10%; float: left; text-align: center;}
+
+#mail1,#mail2{width: 35%; height: 35px; border-radius: 10px; box-sizing: border-box; float: left;}
+
+.joinBtn{box-sizing: border-box; margin-left: 25%; margin-top: 40px; padding-bottom: 50px;}
+.join{background: none; width: 30%; height: 50px; font-size: 1em; margin-right: 20px; 
+border: 2px solid #0064bf; color: #0064bf;transition: all .5s ease; border-radius: 10px; }
+.reset{background: none; width: 30%; height: 50px; font-size: 1em; transition: all .5s ease;
+    border-radius: 10px;}
+
+

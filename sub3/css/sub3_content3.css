@@ -1,0 +1,12 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif; }
+#content span{display: block; margin-top: 10px; }
+.charge1 p{font-size: 2em; font-weight: 500; margin-bottom: 30px; text-align: center; color: #0064bf;}
+.title_area{margin-bottom: 120px;}
+.charge1{margin-bottom: 120px;}
+table{border-collapse: collapse; width: 100%; background: #f8f8f8;}
+th,td{border: 1px solid #ccc; padding: 15px 10px; text-align: center;}
+table td{background: #fff;}
+
+

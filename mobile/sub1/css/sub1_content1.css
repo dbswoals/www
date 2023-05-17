@@ -1,0 +1,28 @@
+/* 시설안내 내용 영역 */
+.content_area .play{margin-bottom: 30px;}
+.content_area .play li{overflow: hidden;}
+.content_area .play li img{float: left; margin-top: 20px;}
+.content_area .play li dl{margin-left: 200px;}
+.content_area .play li dt{font-size: 1.3em; color: #0064bf;  font-weight: 500; position: relative; top: 50px; left:10px;}
+.content_area .play li dt::after{content: ''; display: block; height: 2px; width: 50px; background:#c2e0ff ;
+position: absolute; left:0; top:30px }
+.content_area .play li dd{font-size:1em;line-height:1.5em;margin-top: 50px; padding: 10px;}
+.content_area .play li:nth-child(2) img{float: right; position: relative; width: 190px; margin-left: 15px;}
+.content_area .play li:nth-child(2) dl{margin-left: 0;}
+ 
+
+
+.service dl{height: 120px; position: relative; background: url(../images/content1/sub1img.jpg)center; margin-bottom: 30px;}
+.service dt{text-align: center;  font-weight: 500; font-size: 1em;  color: #333; padding-top:30px;}
+.service dd{text-align: center;padding-top:10px;}
+
+.summary{margin-bottom: 30px;}
+.summary p{text-align: center; font-size: 1em; font-weight: 500; margin-bottom: 30px;}
+.summary>ul{display: flex; justify-content:center; margin-left:10px;}
+.summary>ul>li{position: relative; border-radius: 20px; margin-right: 10px;}
+.summary img{border-radius: 20px;}
+.summary .summary_con{position: absolute; width: 100%; left:0; top:0; text-align: center;
+ background: rgba(0,0,0,.5); border-radius: 20px 20px 0 0 ; color: #fff; font-size:.75em; line-height: 1.8em;}
+
+ 
+

@@ -1,0 +1,9 @@
+/* 시설안내 내용 영역 */
+.tiki{margin-top: 35px; margin-left: 10px;}
+.tiki li{overflow: hidden; margin-bottom: 20px;}
+.tiki li img{border-radius: 20px; float: left; margin-right: 15px;}
+.tiki dl{ margin-right: 15px;}
+.tiki dt{font-size: 1.2em; font-weight: 500; color: #0064bf; margin-bottom: 5px;}
+.tiki dt span{font-size: 1.2em;}
+.tiki dd{font-size: 1em; font-weight: 400; text-align: justify;  }
+

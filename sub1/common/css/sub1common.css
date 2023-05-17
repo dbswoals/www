@@ -1,0 +1,75 @@
+/* sub1 depth의 공통영역 */
+
+.sub_visual{width: 2000px;
+            position: relative;
+            left: 50%;
+            top: 0;
+            margin-left: -1000px;}
+
+.sub_visual h3{position: absolute;
+            top: 300px;
+            width: 100%; 
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 300;
+            font-size: 2em;
+            color: #fff;}
+
+.sub_nav{border-bottom: 1px solid #ccc;}
+
+.sub_nav ul{width: 800px;
+            margin: 0 auto;
+            overflow: hidden;}
+
+.sub_nav li{float: left;
+            width: 25%;
+            text-align: center;
+            position: relative;
+            }
+
+
+
+.sub_nav li a{display: block;
+            padding: 25px 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 500;
+            font-size: 1.25em;
+            transition: all .5s ease;
+            }
+
+.sub_nav li .current{background: #0064bf;
+                    font-weight: 700;
+                    color: #fff;
+                    }
+
+.sub_nav li .current, .sub_nav li a:hover{background:#0064bf;
+                                          color: #fff;}
+
+#content{width: 1200px;margin: 0 auto;}
+
+#content .title_area{position: relative;
+                    overflow: hidden;  font-family: 'Noto Sans KR', sans-serif;}
+
+#content .title_area .line_map{position: absolute;
+                               right: 60px;
+                               top: 30px;
+                               color: #333;
+                               font-size: 1em;}
+
+#content .title_area h2{font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 700;
+                        font-size: 3.15em;
+                        margin: 120px 0 25px;
+                        text-align: center;}
+
+#content .title_area p{font-family:'Noto Sans KR', sans-serif;
+                       font-size: 1.875em;
+                       font-weight: 500;
+                       text-align: center;}
+
+#content .title_area p:nth-of-type(2){font-family:'Noto Sans KR', sans-serif;
+                                    font-size: 1.125em;
+                                    font-weight: 400;}
+
+
+

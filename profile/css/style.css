@@ -1,0 +1,223 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+/*  Reset CSS  */
+* { margin:0;  padding:0;}
+ol,ul { list-style: none; }
+a { outline:0; text-decoration:none; color:#555; }
+img { border:0;}
+body { font:12px/1.6 arial; color:#555; } 
+.hidden{display: none;}
+
+/*로고*/
+h1 { position:fixed; top:50px; left:50px; z-index:10;}
+h1 img { width:200px; height:auto;}
+
+/*sns*/
+#sns { position:fixed; top:40px; right:50px; z-index:14;}
+#sns li { float:left; margin-left:20px;}
+#sns li i { font-size:25px; color:#111; opacity:0.5;transition:all 0.5s;}
+#sns li i:hover { transform:scale(1.5); opacity:1;}
+
+/*메뉴*/
+#menu { position:fixed; top:50%; left:0px; margin-top:-100px; z-index:13;}
+#menu a { display:block; width:200px; height:60px; font-family:righteous; font-size:14px; color:#000; text-align:right; overflow:hidden; box-sizing:border-box;  border-top:1px solid #111;  opacity:0.8; transition:all .3s;}
+#menu li:hover a { opacity:1; }
+#menu li.on a { font-size:18px; opacity:1;}
+
+#menu li:nth-child(1):hover a { color:#d4164c; border-color:#d4164c;}
+#menu li:nth-child(2):hover a { color:pink; border-color:pink;}
+#menu li:nth-child(3):hover a { color:#ffec6a; border-color:#ffec6a;}
+#menu li:nth-child(4):hover a { color:#005a89; border-color:#005a89;}
+#menu li:nth-child(5):hover a { color:#008934; border-color:#008934;}
+#menu li:nth-child(6):hover a { color:#d2d2d2; border-color:#d2d2d2;}
+
+#menu li:nth-child(1).on a { color:#d4164c; border-color:#d4164c;}
+#menu li:nth-child(2).on a { color:pink; border-color:pink;}
+#menu li:nth-child(3).on a { color:#ffec6a; border-color:#ffec6a;}
+#menu li:nth-child(4).on a { color:#005a89; border-color:#005a89;}
+#menu li:nth-child(5).on a { color:#008934; border-color:#008934;}
+#menu li:nth-child(6).on a { color:#d2d2d2; border-color:#d2d2d2;}
+
+
+/*레이아웃*/
+section { width:100%; height:700px; position:relative; background-size:cover; background-attachment: fixed; background-position:right center; overflow:hidden;}
+section:nth-child(1) { background-image:url(../images/backimg.jpg); }
+section:nth-child(2) { background-image:url(../img/bg2.jpg); }
+section:nth-child(3) { background-image:url(../img/bg3.jpg); }
+/* section:nth-child(4) { background-image:url(../img/bg4.jpg); } */
+
+
+/*텍스트 박스*/
+article { position:absolute; top:46%; left:300px; z-index:11; }
+article p { font-family:righteous; font-size:50px; letter-spacing:2px; line-height:1;} 
+article span { font-size:16px; }
+section:nth-child(1) p { color:#d4164c;}
+section:nth-child(1) span { color:#111;}
+section:nth-child(2) p { color:#fff;}
+section:nth-child(2) span { color:#fff;}
+section:nth-child(3) p { color:#fff;}
+section:nth-child(3) span { color:#ffec6a;}
+section:nth-child(4) p { color:#005a89;}
+section:nth-child(4) span { color:#111;}
+
+/*첫 번째 박스 이미지*/
+
+
+/*두 번째 박스 이미지*/
+.profile{overflow: hidden; }
+.profile_inner{padding: 10% 0; margin-left: 370px ; float: left;}
+.profile_img{overflow: hidden; border-radius: 4% 95% 6% 95%/95% 4% 92% 5%; border: 5px solid #333;}
+.profile_img img{display: block; width: 100%;}
+
+.profile a{display:block; float: left; margin-left: 20px; font-size: 1.5em; background: rgb(15, 122, 15);
+color: #fff; padding: 7px; margin-top: 20px; border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+transition: all .5s ease;}
+.profile a:hover{background: #fff; color: rgb(15, 122, 15); border: 1px solid rgb(15, 122, 15);}
+
+.profile_text{float: left; margin-left: 150px; padding-top: 120px;}
+.profile_text li{margin-bottom: 10px; padding: 20px 0;}
+.profile_text li:nth-of-type(2){border-bottom: 1px dashed #ccc;}
+.profile_text li:nth-of-type(3){border-bottom: 1px dashed #ccc;}
+.profile_text li:nth-of-type(4){border-bottom: 1px dashed #ccc;}
+.profile_text li span{font-size: 2em; color: #333; font-weight: 500; margin-left: 50px;}
+.profile_text li strong{font-size: 2em; color:#333;}
+.profile_text li:nth-of-type(1) strong{font-size: 4em; color: rgb(15, 122, 15);;}
+.profile_text li:nth-of-type(1) span{font-size: 2em; margin-left: 20px; font-weight: 600; color: rgb(15, 122, 15);}
+
+.profile_text .pro_skill{overflow: hidden;}
+.profile_text .pro_skill li{width: 100px; margin: 1%; text-align: center; float: left;border: none;
+transition: all .5s ease;}
+.profile_text .pro_skill li img{width: 50%; display: block; margin: 7% 0 3% 25%; }
+
+.profile_text .pro_skill li:hover{background: #f1eeee; border-radius: 50%;}
+/*세 번째 박스 이미지 */
+.pc{position: relative;}
+.pc article{top:15%; left: 18%;}
+.pc_inner{width: 43%; float: left; padding: 5% 2% 0 5%; line-height: 2em;}
+.pc_back{background: url(../images/waterlogo.png) no-repeat 40% 5%; display: block; width: 100%;
+height: 100%; position: absolute; right: 2%; bottom: 20%; opacity: .5; background-size: 35%; z-index: -1;}
+.title{position: relative;}
+.title dt{color: #0064bf; font-size: 2em; margin-bottom: 10px; line-height: 2em;}
+.title dt span{font-size: 1.5em; color: #333; font-weight: 600;}
+.title dd{font-size: 1.8em; margin-bottom: 5%; width: 90%;}
+.title a{display: block; position: absolute;  right: 60px; top: 45px; font-size: 1.5em; 
+background: #02539e;text-align: center; color: #fff; border: 2px solid #328bdf;
+width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
+.title a:hover{background: #fff; color: #328bdf; border: 2px solid #02539e; border-radius: 20px;}
+
+.pc1 .color dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.pc1 .color dl ul{overflow: hidden; margin-bottom: 5%;}
+.pc1 .color dl ul li{float: left; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #eee; margin: 0 10px;}
+.pc1 .color .main_color{background: #0064bf;} 
+.pc1 .color .sub_color{background: #99ccff;} 
+.pc1 .color .font_color{background: #333;}
+
+.pc1 .day{margin-bottom: 5%;}
+.pc1 .day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.pc1 .day dd{font-size: 1.8em;}
+
+.pc1 .skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.pc1 .skill dd{font-size: 1.8em;}
+
+.pc2{width: 47%; float: left; }
+.pc2 img:nth-child(1){width: 100%; margin: 80px 0 0 80px; position: relative; z-index: 10; right:5%; margin-top: 120px;}
+.pc2 img:nth-child(2){width: 36%; position: absolute; z-index: 1; right:5%; bottom: 17%; height: 360px;}
+/*네 번째 박스 이미지 */
+.mobile{position: relative;overflow: hidden;}
+.mobile article{ position: absolute; left: 15%; top: 16%;}
+.mobile .mobile1{width: 30%; margin-left: 5%; float: left;}
+.mobile .mobile1 img:nth-child(1){width: 18.2%; position: absolute; left: 12.4%; top: 2%; z-index: 1;}
+.mobile .mobile1 img:nth-child(2){width: 70%; margin:0 0 0 20%; position: relative; 
+    bottom: 5%; z-index: 10; overflow: hidden;}
+.mobile_back{background: url(../images/waterlogo.png) no-repeat 40% 5%; display: block; width: 100%;
+    height: 100%; position: absolute; left: 33%; bottom: 27%; opacity: .5; background-size: 35%; z-index: -1;}
+
+.mobile2 .mobile_inner{width: 50%; float: left; margin-top: 30px; position: relative;}
+.mobile2 .m_title dt{font-size: 1.5em; margin-bottom: 20px; color: #0064bf;line-height: 2.5em;}
+.mobile2 .m_title dt span{font-size: 1.5em; color: #333; font-weight: 600;}
+.mobile2 .m_title dd{font-size: 1.5em; width: 90%;} 
+.m_title a{display: block; position: absolute;  right: 100px; top: 40px; font-size: 1.5em; 
+    background: #02539e;text-align: center; color: #fff; border: 2px solid #328bdf;
+    width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
+.m_title a:hover{background: #fff; color: #328bdf; border: 2px solid #02539e; border-radius: 20px;}
+
+.mobile2 .m_color dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.mobile2 .m_color dl ul{overflow: hidden; margin-bottom: 5%;}
+.mobile2 .m_color dl ul li{float: left; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #eee; margin:0 10px;}
+.mobile2 .m_color .main_color{background: #0064bf;} 
+.mobile2 .m_color .sub_color{background: #99ccff;} 
+.mobile2 .m_color .font_color{background: #333;}
+
+.mobile2 .m_day{margin-bottom: 5%;}
+.mobile2 .m_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.mobile2 .m_day dd{font-size: 1.8em;}
+
+.mobile2 .m_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.mobile2 .m_skill dd{font-size: 1.8em;}
+
+/* 다섯번째 페이지 */
+.media{position: relative;}
+.media article{top:15%; left: 18%;}
+.media_inner{width: 43%; float: left; padding: 5% 2% 0 5%; line-height: 2em;position: relative;}
+.media_back{background: url(../images/logo.png) no-repeat 40% 5%; display: block; width: 100%;
+    height: 100%; position: absolute; right: 10%; bottom: 15%; opacity: .5; background-size: 35%; z-index: -1;}
+.media .media_title dt{color: #bd0202; font-size: 2em; margin-bottom: 10px; line-height: 2em;}
+.media dt span{font-size: 1.5em; color: #333; font-weight: 600;}
+.media dd{font-size: 1.8em; margin-bottom: 5%; width: 90%;}
+.media_title a{display: block; position: absolute;  right: 100px; top: 115px; font-size: 1.5em; 
+    background: rgba(206, 5, 5, 0.685);text-align: center; color: #fff; border: 2px solid #f00;
+    width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
+.media_title a:hover{background: #fff; color: #f00; border: 2px solid rgba(206, 5, 5, 0.685); border-radius: 20px;}
+
+.media .media_color dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.media .media_color dl ul{overflow: hidden; margin-bottom: 5%;}
+.media .media_color dl ul li{float: left; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #eee; margin: 0 10px;}
+.media .media_color .main_color{background: rgba(206, 5, 5, 0.685);} 
+.media .media_color .sub_color{background: #fff;} 
+.media .media_color .font_color{background: #333;}
+
+.media .media_day{margin-bottom: 5%;}
+.media .media_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.media .media_day dd{font-size: 1.8em;}
+
+.media .media_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.media .media_skill dd{font-size: 1.8em;}
+
+.media2{width: 47%; float: left; }
+.media2 img:nth-child(1){width: 100%; margin: 80px 0 0 80px; position: relative; z-index: 10; right:5%; margin-top: 50px;}
+.media2 img:nth-child(2){width: 45%; position: absolute; z-index: 1; right: 1%; bottom: 27%; height: 390px;}
+
+.media2 .pad{position: absolute; right: 20%; bottom: -5%; width: 32%;}
+.media2 .pad img{width: 60%;}
+/* 여섯번째 페이지 */
+.wp{position: relative;}
+.wp article{top:15%; left: 12%;}
+.wp_back{background: url(../images/bentely.png) no-repeat 40% 5%; display: block; width: 100%;
+    height: 100%; position: absolute; right: 5%; bottom: 25%; opacity: .5; background-size: 35%; z-index: -1;}
+.wp_inner{width: 43%; float: left; padding: 5% 2% 0 5%; line-height: 2em; position: relative;}
+.wp .wp_title dt{color: #bd0202; font-size: 2em; margin-bottom: 10px; line-height: 2em;}
+.wp dt span{font-size: 1.5em; color: #333; font-weight: 600;}
+.wp dd{font-size: 1.8em; margin-bottom: 5%; width: 90%;}
+.wp_title a{display: block; position: absolute;  right: 110px; top: 130px; font-size: 1.5em; 
+    background: #333;text-align: center; color: #fff; border: 2px solid #d2d2d2;
+    width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
+.wp_title a:hover{background: #fff; color: #333; border: 2px solid #d2d2d2; border-radius: 20px;}
+
+.wp1 .wp_color dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.wp1 .wp_color dl ul{overflow: hidden; margin-bottom: 5%;}
+.wp1 .wp_color dl ul li{float: left; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #eee; margin: 0 10px;}
+.wp1 .wp_color .main_color{background: #333;} 
+.wp1 .wp_color .sub_color{background: #fff;} 
+.wp1 .wp_color .font_color{background: #d8c349;}
+
+.wp1 .wp_day{margin-bottom: 5%;}
+.wp1 .wp_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.wp1 .wp_day dd{font-size: 1.8em;}
+
+.wp1 .wp_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
+.wp1 .wp_skill dd{font-size: 1.8em;}
+
+.wp2{width: 47%; float: left; }
+.wp2 img:nth-child(1){width: 100%; margin: 80px 0 0 80px; position: relative; z-index: 10; right:10%; margin-top: 50px;}
+.wp2 img:nth-child(2){width: 45%; position: absolute; z-index: 1; right: 4.3%; bottom: 27.5%; height: 440px;}

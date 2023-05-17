@@ -1,0 +1,41 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif;}
+
+.title_area{margin-bottom: 120px;}
+
+.play{position: relative; margin-bottom: 120px; padding-bottom: 120px; overflow: hidden;}
+.play h3{text-align: center; font-size: 2.25em; margin-bottom: 60px;}
+.play img{margin-left: 100px; float: left; }
+
+.btn a{background: rgba(0,0,0,.7); color: #fff; font-size: 2.2em; margin-left: 995px; 
+margin-right: 150px; border-radius: 10px; text-align: center; position: relative; left: -145px;}
+.btn a:hover{background: #999;}
+
+.play dl{background: #0064bf; color: #fff; margin-left: 800px; 
+position: absolute; right: 100px; top:350px ; width: 400px; height: 350px; opacity: .9;}
+.play dt{font-size: 1.8em; font-weight: 500; margin-left: 10px; margin-top:20px;}
+.play dt::after{content: ""; display: block; width:400px; height: 2px; position: absolute;
+    left: 0; top: 70px; background: #fff;}
+.play dd{font-size: 1em; width: 380px; text-align: justify; margin-top: 30px; margin-left: 10px;}
+.play dl a{color: #fff; margin-left: 310px; margin-top: 40px;}
+.play dl a i{transition: all .5s ease; position: absolute; left: 330px; bottom:48px; opacity: 0;}
+.play dl a:hover i{position: absolute; left: 375px; bottom:48px;opacity: 1;}
+
+.party{margin-top: 120px; overflow: hidden;}
+.party h3{text-align: center; font-size: 2.25em; margin-bottom: 60px;}
+.party img{margin-left: 100px; float: left;}
+
+.party dl{margin-left: 300px; width: 350px;height: 400px; 
+position: absolute; right: 460px; background: yellowgreen;}
+.party dt{font-size: 1.6em; font-weight: 500; color: #333; margin-left: 30px; margin-top: 50px; margin-bottom: 50px;}
+.party dd{font-size: 1.1em; font-weight: 400; width: 300px; margin-left: 25px; margin-top: 20px;}
+.party dd:nth-of-type(2){background: green; width: 50px; text-align: center; border-radius: 10px;
+color: #fff;}
+.party dd span{color: red;}
+
+.party dl a{font-size: 1.2em; color: #333; margin-top: 30px; transition: all .5s ease;}
+.party dl a:nth-of-type(1){float: left; margin-left: 20px;}
+.party dl a:nth-of-type(1):hover{color: #fff;}
+.party dl a:nth-of-type(2){float: right; margin-right: 20px;}
+.party dl a:nth-of-type(2):hover{color: #fff;}

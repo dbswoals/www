@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>워터파크 소개-오시는길</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+
+    <script src="https://kit.fontawesome.com/b772748ffd.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{margin: 0; padding: 0;}
+        .map #map_content1,.map #map_content2,.map #map_content3{width: 1200px; height: 800px; border: 1px solid #999;}
+    </style>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ea1093cf0863df1cddd6163e1d152c8e"></script>
+    <script src="./js/kakao_map2.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+            
+            <div class="sub_visual visual">
+                <img src="./common/images/visual01.jpg" alt="">
+                <h3>워터파크 소개</h3>   
+            </div>
+            <div class="sub_nav">
+                <ul>
+                    <li><a href="./sub1_1.html">시설안내</a></li>
+                    <li><a href="./sub1_2.html">티키아일랜드 소개</a></li>
+                    <li><a href="./sub1_3.html">추천 핫플레이스</a></li>
+                    <li><a class="current" href="./sub1_4.html">오시는길</a></li>
+                </ul>
+            </div>
+
+            <article id="content">
+                <div class="title_area">
+                    <div class="line_map">
+                        <i class="fa-solid fa-house"></i> &gt; 워터파크소개 &gt; <strong>오시는길</strong>
+                    </div>
+                    <h2>오시는길</h2>
+                </div>
+                <div class="tap">
+                    <ul>
+                        <li><a href="#map">자가용</a></li>
+                        <li><a href="#subway">지하철</a></li>
+                    </ul>
+                </div>
+                    <div class="map">
+                            <h3 class="hidden">자가용으로 오시는 길</h3>
+                            <div id="map_content1">
+                                <!-- 카카오맵삽입 -->
+                            </div>
+                            <h3 class="hidden">지하철로 오시는 길</h3>
+                            <div id="subway">
+                                <p>차량 정체가 없는 부산- 김해 경전철</p>
+                                <ul>
+                                    <li>서면역</li>
+                                    <li>사상역</li>
+                                    <li>부원역</li>
+                                </ul>
+                                <img src="./images/content4/busanSubway.png" alt="">
+                                <ul>
+                                    <li>
+                                        <dl>
+                                            <dt>주소</dt>
+                                            <dd>경상남도 김해시 장유로 555 (신문동) 롯데워터파크</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>전화번호</dt>
+                                            <dd>1661-2000</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>이메일주소</dt>
+                                            <dd>happylotteworld@lotte.net </dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+
+                            </div>
+                    </div>
+            </article>        
+
+            <? include "../common/sub_footer.html" ?>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "card": [
+      {
+        "title":"BC카드로 예매하면?",
+        "path":"images/card/1.jpg"
+      },
+      {
+        "title":"KB국민카드",
+        "path":"images/card/2.jpg"
+      },
+      {
+        "title":"NH농협카드",
+        "path":"images/card/3.jpg"
+      },
+      {
+        "title":"롯데월드 카드(삼성카드)",
+        "path":"images/card/4.jpg"
+      }
+    ]
+  }

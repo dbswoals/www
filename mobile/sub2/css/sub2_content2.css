@@ -1,0 +1,12 @@
+/* 시설안내 내용 영역 */
+#content p:nth-of-type(2){margin-top: 20px; margin-bottom: 60px;}
+#content .content_area dl{border: 1px solid #ccc; position: relative; margin-bottom:60px; }
+#content .content_area dt{text-align: center; font-size: 1.2em; font-weight: 500; 
+    background: #0064bf;width: 260px;
+color: #fff; position:absolute;left:50%; margin-left: -130px; top: -35px;padding: 10px 0;}
+#content .content_area dl:nth-child(2) dd{margin-top: 30px;}
+#content .content_area dd{position: relative; font-size: 1em; margin-top: 20px; 
+    font-weight: 400;padding-left: 30px;margin-bottom: 20px; margin-right: 10px;}
+#content .content_area dd::before{content:'※'; position: absolute;
+    left:10px; top: 0; display: block; }
+

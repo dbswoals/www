@@ -1,0 +1,53 @@
+/* 시설안내 내용 영역 */
+.title_area{margin-bottom:30px;}
+
+.play{position: relative; margin-bottom: 70px; padding-bottom: 20px; overflow: hidden;}
+.play h3{text-align: center; font-size: 2.25em; margin-bottom: 30px;}
+.play img{width: 200px; float: left; margin-left: 50px; }
+
+
+.tabs{overflow: hidden; margin-bottom: 40px;}
+.tabs ul{margin: 0 50px; overflow: hidden;}
+.tabs li{float: left; width: 50%; text-align: center;} 
+.tabs li a{font-size: 1.3em; border: 1px solid #ccc;padding:10px 10px; 
+    display: block;}
+.tabs .current1{background: #999; color: #fff;}
+
+
+.contlist{display: none;}
+.play img{margin-bottom: 80px;}
+.play dl{background: #0064bf; color: #fff;   
+position: absolute;left:30%; top:180px ; width: 65%; height: 180px; opacity: .9;}
+.play dt{font-size: 1.1em; font-weight: 500; margin-left: 10px; margin-top:10px;}
+.play dt::after{content: ""; display: block; width:200px; height: 2px; position: absolute;
+    left: 0; top: 40px; background: #fff;}
+.play dd{font-size: 1em; text-align: justify; margin: 20px 15px;}
+.play dl a{color: #fff; margin-left: 310px; margin-top: 40px;}
+.play dl a i{transition: all .5s ease; position: absolute; left: 100px; bottom:48px; opacity: 0;}
+
+.button1 a{display: block; color: #fff; font-size: 1.2em; width: 30px;height: 30px;
+    border-radius: 10px; text-align: center; position:absolute; right: 15%;
+     bottom: 155px; z-index: 10; transition: all .5s ease;}
+.button1 a:nth-child(2){margin-right: -30px;}
+
+
+.party{overflow: hidden;}
+.party h3{text-align: center; font-size: 2.25em; margin-bottom: 30px;}
+.party img{width: 250px; margin-left: 40px; margin-bottom: 80px;}
+.party li{ box-sizing: border-box;
+   position: relative;}
+
+.party dl{float: left; width:65%;height: 180px; background: rgba(154, 205, 50, .9); 
+    position:absolute;
+top:100px; left: 30%; }
+.party dt{font-size: 1.2em; font-weight: 500; color: #fff; margin-left: 10px; margin-top: 10px; margin-bottom: 15px;}
+.party dt::after{content: ""; display: block; width:200px; height: 2px; position: absolute;
+    left: 0; top: 40px; background: #fff;}
+.party dd{font-size: 1em; font-weight: 400; width: 170px; margin-left: 10px; margin-bottom: 15px;}
+.party dd span{color: red;}
+
+.party .button2 a{display: block; font-size: 1em; color: #333; margin-top: 30px; transition: all .5s ease;
+position:absolute;bottom: 60px; right: 20%; z-index: 10; }
+.party .button2 .back{}
+.party .button2 .next{margin-right: -50px;}
+

@@ -1,0 +1,18 @@
+/* sub1 depth의 공통영역 */
+
+.main{background: url(../images/sub3visual.jpg)no-repeat center bottom; width: 100%; height: 200px; background-size:cover;
+    position: relative;}
+    .main h3{position: absolute; top: 130px; width: 100%; text-align: center; font: 300; font-size: 1.3em ; color: #fff;}
+    
+    .subNav{border-bottom: 1px solid #ccc; margin-bottom: 35px;}
+    .subNav ul{margin: 0 auto; overflow: hidden;}
+    .subNav li{float: left; width: 50%; text-align: center; position: relative;}
+    .subNav li a{display: block;  transition: all .5s ease; padding: 8px;}
+    .subNav li .current{background: #0064bf; font-weight: 500; color: #fff;}
+    
+    /* 시설안내 내용 영역 */
+    
+    .title_area{}
+    .title_area h2{text-align: center; font-size: 1.5em; font-weight: 500; margin-bottom: 10px;}
+    .title_area p:nth-of-type(1){text-align: center; font-size: 1em; font-weight: 400;}
+    .title_area p:nth-of-type(2){text-align: center; font-size: 1em;}

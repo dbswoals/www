@@ -1,0 +1,51 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif;}
+
+.title_area{margin-bottom: 120px;}
+
+.play{position: relative; margin-bottom: 120px; padding-bottom: 120px; overflow: hidden;}
+.play h3{text-align: center; font-size: 2.25em; margin-bottom: 60px;}
+.play img{margin-left: 100px; float: left; }
+
+.button1 a{ color: #fff; font-size: 2.9em; margin-left: 995px;  width: 70px;height: 70px;
+margin-right: 150px; border-radius: 10px; text-align: center; position: relative; left: -295px;
+top: 517px; z-index: 10; transition: all .5s ease;}
+.button1 a:nth-of-type(2){float: left; position: absolute; top: 629px; left: -225px;}
+.button1 a:hover{background: #01478a;}
+
+.tabs ul{overflow: hidden;  margin: 0 auto; margin-top: 60px; margin-bottom: 120px;}
+.tabs li{width: 50%; float: left; text-align: center;} 
+.tabs li a{font-size: 1.8em; border: 1px solid #ccc;width: 400px; padding: 20px;}
+.tabs li:hover a{background: #d8d8d8; color: #0064bf;}
+.tabs a.tab1{left:0; top:0;  margin-left: 160px;}
+.tabs a.tab2{left:84px; top:0;}
+.contlist{display: none;}
+.play dl{background: #0064bf; color: #fff; margin-left: 800px; 
+position: absolute; right: 100px; top:350px ; width: 400px; height: 350px; opacity: .9;}
+.play dt{font-size: 1.8em; font-weight: 500; margin-left: 10px; margin-top:20px;}
+.play dt::after{content: ""; display: block; width:400px; height: 2px; position: absolute;
+    left: 0; top: 70px; background: #fff;}
+.play dd{font-size: 1em; width: 380px; text-align: justify; margin-top: 30px; margin-left: 10px;}
+.play dl a{color: #fff; margin-left: 310px; margin-top: 40px;}
+.play dl a i{transition: all .5s ease; position: absolute; left: 330px; bottom:48px; opacity: 0;}
+.play dl a:hover i{position: absolute; left: 375px; bottom:48px;opacity: 1;}
+
+.party{overflow: hidden;}
+.party h3{text-align: center; font-size: 2.25em; margin-bottom: 60px;}
+.party img{margin-left: 100px; float: left;}
+.party li{width: 1200px; box-sizing: border-box; box-shadow: 2px 2px 20px 1px rgba(0,0,0,.1);}
+
+.party dl{float: left; width: 350px;height: 400px; background: yellowgreen; position: relative; top: -58px;}
+.party dt{font-size: 1.6em; font-weight: 500; color: #333; margin-left: 30px; margin-top: 50px; margin-bottom: 40px;}
+.party dd{font-size: 1.1em; font-weight: 400; width: 300px; margin-left: 25px; margin-top: 20px;}
+.party dd:nth-of-type(2){background: green; width: 50px; text-align: center; border-radius: 10px;
+color: #fff;}
+.party dd span{color: red;}
+
+.party .button2 a{font-size: 1.2em; color: #333; margin-top: 30px; transition: all .5s ease;
+position: relative; top:300px; z-index: 10; }
+.party .button2 a:nth-of-type(1){float: left; margin-left: 20px;}
+.party .button2 a:nth-of-type(1):hover{color: #fff;}
+.party .button2 a:nth-of-type(2){float: right; margin-right: 120px;}
+.party .button2 a:nth-of-type(2):hover{color: #fff;}

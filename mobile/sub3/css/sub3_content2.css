@@ -1,0 +1,23 @@
+/* 시설안내 내용 영역 */
+#content .title_area h2{font-size: 1.2em; font-weight: 500;}
+
+.title_area{margin-bottom: 70px;}
+
+.faq{border-bottom:1px solid #ddd;font-size:12px;margin-top: 35px; margin-bottom: 70px;}  
+.faq .hgroup{position:relative;margin:0 0 10px 0;}  
+.faq .hgroup .all{position:absolute; top:-50px; right:0; text-decoration:none;
+width: 100px; height: 30px; font-size: 1em; text-align: center; border-radius:20px; padding-top: 10px;
+background: #0064bf; color: #fff; transition: all .5s ease;}  
+.faq ul{margin:0;padding:0;list-style:none}  
+.faq .q{margin-top:30px;border-top:1px solid #ddd; position: relative;}  
+.faq .q a.trigger{font-size: 1.2em;color:#0064bf; margin-right: 30px;
+display:block;padding:10px 15px;background:#fafafa;text-align:left;text-decoration:none ;}  
+.faq .hide .q a.trigger{font-weight:500;font-size: 1.2em; background:none; color: #0064bf;}  
+.faq .hide .q a.trigger strong{margin-bottom: 20px;}
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{font-size: 1.2em;} 
+.faq .q span{display: block; position: absolute; right: 15px; top:10px} 
+.faq .a{margin:0;padding:10px 15px;line-height:1.5;
+    padding-bottom:10px; margin-top:20px; margin-bottom:0px;  
+    padding-top:10px; display: none; font-size: 1em;} 

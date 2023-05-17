@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css" />	
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/custom.js"></script>
+    <style>
+      *{margin: 0; padding: 0;}
+      section{width: 100%; position: relative; height: 1000px;}
+    /* .img_box{position: absolute; left: 100px;
+    top: 50%; margin-top: -227px; border: 1px solid red;}
+    .img_box img{position: absolute; left:0;top: 0;}
+    .img_box img:nth-child(1){left: 90px;} */
+    </style>
+</head>
+<body>
+    <!-- 로고 -->
+<h1><img src="img/logo.png" /></h1>
+
+<!-- 주 메뉴 -->
+<ul id="menu">
+	<li class="on"><a href="#">HOME</a></li>
+	<li><a href="#">PROFILE</a></li>
+	<li><a href="#">PC</a></li>
+	<li><a href="#">MOBILE</a></li>
+    <li><a href="#">RESPONSIVE</a></li>
+    <li><a href="#">WORDPRESS</a></li>
+</ul>
+
+<!-- sns -->
+<ul id="sns">
+	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+</ul>
+
+<!-- 전체 페이지 -->
+<div id="wrap">
+
+	<!-- 첫 번째 박스 -->
+	<section>
+		<article>
+			<p>FULL BLOSSOM</p>
+			<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+		</article>
+	</section>
+	
+	<!-- 두 번째 박스 -->
+	<section class="profile">
+        <h2 class="hidden">PROFILE</h2>
+            <div class="profile_inner">
+                <div class="profile_img">
+                    <img src="./images/profle.jpg" alt="">
+                </div>
+                <a href="#" class="btn">RESUME</a>
+                <a href="#" class="btn">STORYBOARD</a>
+                <a href="#" class="btn">GITHUB</a>
+            </div>
+			<div class="profile_text">
+               <ul>
+                <li>
+                    <strong>JAEMIN YOON</strong>
+                    <span>윤재민</span>
+                </li>
+                <li>
+                    <strong>생년월일</strong>
+                    <span>2000.04.11</span>
+                </li>
+                <li>
+                    <strong>전화번호</strong>
+                    <span>010-4729-6023</span>
+                </li>
+                <li>
+                    <strong>이메일</strong>
+                    <span>wwoals14@naver.com</span>
+                </li>
+                <li>
+                    <strong>보유기술</strong>
+                    <ul class="pro_skill">
+                        <li><img src="./images/html5.png" alt="">html5</li>
+                        <li><img src="./images/css3.png" alt="">css3</li>
+                        <li><img src="./images/javascript.png" alt="">javascript</li>
+                        <li><img src="./images/jquery.png" alt="">jquery</li>
+                        <li><img src="./images/json.png" alt="">json</li>
+                        <li><img src="./images/wordpress.png" alt="">wordpress</li>
+                        <li><img src="./images/photoshop.png" alt="">photoshop</li>
+                        <li><img src="./images/ali.png" alt="">illustrator</li>
+                    </ul>
+                </li>
+               </ul>
+            </div>
+	</section>
+	
+	<!-- 세 번째 박스 -->
+	<section class="pc">
+        <article>
+        <h2 class="hidden">기업형pc</h2>
+        <span class="pc_back"></span>
+        <div class="pc1">
+            <ul class="pc_inner">
+                <li class="title">
+                    <a href="http://wwoals18.cafe24.com/">VISIT</a>
+                    <dl>
+                        <dt>기업형PC 웹사이트<br><span>롯데워터파크 홈페이지 PC</span></dt>
+                        <dd>기존 웹사이트의 헤딩 부제,HTML5와 CSS3로 구현되긴 하였지만 트랜드에 맞지 않다고 파악하여 
+                            트랜드를 초점을 두고 새롭게 구축하였습니다.
+                        </dd>
+                    </dl>
+                </li>
+                <li class="color">
+                    <dl>
+                        <dt>COLOR</dt>
+                        <dd>
+                            <ul>
+                                <li class="main_color"></li>
+                                <li class="sub_color"></li>
+                                <li class="font_color"></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="day">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>약5주</dd>
+                    </dl>
+                </li>
+                <li class="skill">
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd>HTML5, CSS3, JavaScript, jQuery, JSON, AJAX, PHP, MySQL, Adobe Photoshop
+                            W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 크로스브라우징 완료</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="pc2">
+            <img src="./images/pc.png" alt="">
+            <img src="./images/pc.gif" alt="">
+        </div>
+    </article>
+	</section>
+	
+	<!-- 네 번째 박스 -->
+	<section class="mobile">
+		<article>
+            <h2 class="hidden">기업형mobile</h2>
+            <span class="mobile_back"></span>
+            <div class="mobile1">
+                <img src="./images/mobile1.gif" alt="">
+                <img src="./images/mobile.png" alt="">
+            </div>
+
+            <div class="mobile2">
+                <ul class="mobile_inner">
+                    <li class="m_title">
+                        <a href="http://wwoals18.cafe24.com/mobile/">VISIT</a>
+                        <dl>
+                            <dt>기업형MOBILE<br><span>롯데워터파크 홈페이지 MOBILE</span></dt>
+                            <dd>PC용으로 구현된 기업형 동아건설 홈페이지를 모바일 기기 사용을 위한 UI를 적용하여 마우스가 아닌
+                                사용자의 터치 이벤트를 중점적으로 구현했으며, PC버전과는 다르게 사용자 경험을 고려하여 새롭게 구성하였습니다.
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="m_color">
+                        <dl>
+                            <dt>COLOR</dt>
+                            <dd>
+                                <ul>
+                                    <li class="main_color"></li>
+                                    <li class="sub_color"></li>
+                                    <li class="font_color"></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="m_day">
+                        <dl>
+                            <dt>제작기간</dt>
+                            <dd>약2주</dd>
+                        </dl>
+                    </li>
+                    <li class="m_skill">
+                        <dl>
+                            <dt>제작스킬</dt>
+                            <dd>HTML5, CSS3, JavaScript, jQuery, JSON, AJAX, PHP, MySQL, Adobe Photoshop
+                                W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 크로스브라우징 완료</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+		</article>
+	</section>
+</div>
+<section class="media">
+    <article>
+    <h2 class="hidden">반응형 media</h2>
+    <span class="media_back"></span>
+    <div class="media1">
+        <ul class="media_inner">
+            <li class="media_title">
+                <a href="http://wwoals18.cafe24.com/media/">VISIT</a>
+                <dl>
+                    <dt>반응형 웹<br><span>귀멸의 칼날</span></dt>
+                    <dd>애니메이션 귀멸의칼날을 주제로 다양한 디바이스 해상도에 따라 변하는 반응형 사이트로 제작하였습니다.</dd>
+                </dl>
+            </li>
+            <li class="media_color">
+                <dl>
+                    <dt>COLOR</dt>
+                    <dd>
+                        <ul>
+                            <li class="main_color"></li>
+                            <li class="sub_color"></li>
+                            <li class="font_color"></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </li>
+            <li class="media_day">
+                <dl>
+                    <dt>제작기간</dt>
+                    <dd>약2주</dd>
+                </dl>
+            </li>
+            <li class="media_skill">
+                <dl>
+                    <dt>제작스킬</dt>
+                    <dd>HTML5, CSS3, JavaScript, jQuery, JSON, AJAX, PHP, MySQL, Adobe Photoshop
+                        W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 크로스브라우징 완료</dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div class="media2">
+        <img src="./images/pc2.png" alt="">
+        <img src="./images/media.gif" alt="">
+        <div class="pad">
+            <img src="./images/media2.png" alt="">
+        </div>
+    </div>
+</article>
+</section>
+
+<section class="wp">
+    <article>
+    <h2 class="hidden">WORDPRESS</h2>
+    <span class="wp_back"></span>
+    <div class="wp1">
+        <ul class="wp_inner">
+            <li class="wp_title">
+                <a href="http://wwoals18.dothome.co.kr/wordpress/">VISIT</a>
+                <dl>
+                    <dt>WORDPRESS 웹사이트<br><span>BENTLEY MOTORS 웹사이트</span></dt>
+                    <dd>가장 널리 사용되는 오프소스 CMS 중 워드프레스를 사용하여 구현한 반응형 웹사이트로,
+                        워드프레스의 테마와 플러그인을 사용하여 브랜드 컨셉에 맞는 디자인과 레이아웃을 구현하였습니다.</dd>
+                </dl>
+            </li>
+            <li class="wp_color">
+                <dl>
+                    <dt>COLOR</dt>
+                    <dd>
+                        <ul>
+                            <li class="main_color"></li>
+                            <li class="sub_color"></li>
+                            <li class="font_color"></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </li>
+            <li class="wp_day">
+                <dl>
+                    <dt>제작기간</dt>
+                    <dd>약3일</dd>
+                </dl>
+            </li>
+            <li class="wp_skill">
+                <dl>
+                    <dt>제작스킬</dt>
+                    <dd>Wordpress, HTML5, CSS3, JavaScript, jQuery, Adobe Photoshop, illustrator,
+                     W3C 웹표준 통합 마크업 검사(html/css), 웹접근성검사(K-WAH), 크로스브라우징 완료</dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div class="wp2">
+        <img src="./images/pc2.png" alt="">
+        <img src="./images/wordpress.gif" alt="">
+    </div>
+</article>
+</section>
+
+    
+</body>
+</html>

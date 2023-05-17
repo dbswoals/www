@@ -1,0 +1,20 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif; }
+
+.hot_place{margin-top: 120px;}
+.hot_place ul{}
+.hot_place li{overflow: hidden; }
+.hot_place li img{float: left; position: relative;}
+.hot_place dl{}
+.hot_place span{background: #0064bf; color: #fff; padding: 5px 10px; margin-left: 100px;
+border-radius: 10px; margin-right: 10px; font-size: .6em;}
+.hot_place dt{font-size: 1.5em; font-weight: 500; margin-top: 70px; }
+.hot_place dd{width: 550px;  font-size: 1em; font-weight: 400; margin: 30px 500px;}
+
+.hot_place .hot1 img{float: right;}
+.hot1 dl{margin-left: -100px; margin-top: 60px;}
+.hot1 dd{margin-left: 100px;}
+.hot1 dl{}
+
+.hot_place dd:nth-of-type(2){margin-bottom: -20px;}

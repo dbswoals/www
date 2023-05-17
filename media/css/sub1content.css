@@ -1,0 +1,133 @@
+#wrap .backimg1{position: relative; top: 0; left:50%; margin-left: -70%; width: 140%; height: 300px; clear: both;
+background: url(../images/sub1back1.jpg) no-repeat center; background-attachment: fixed;}
+#wrap .backimg2{position: relative; top: 0; left:50%; margin-left: -70%; width: 140%; height: 300px;  clear: both;
+background: url(../images/sub1back2.jpg) no-repeat center; background-attachment: fixed;}
+#wrap .backimg3{position: relative; top: 0; left:50%; margin-left: -70%; width: 140%; height: 300px;  clear: both;
+background: url(../images/sub1back4.jpg) no-repeat center; background-attachment: fixed;}
+/* #wrap .backimg4{position: absolute; top: 5050px; width: 100%; height: 300px;
+background: url(../images/sub1back4.jpg)no-repeat center; background-attachment: fixed;} */
+
+#content{}
+#content h2{position: absolute;
+  top: 40%;left: 50%;margin-left: -122px;font-size: 120px;color: #fff;
+  text-shadow: 5px 5px 1px  rgba(0,0,0,.4);}
+/* about */
+#content .mainstory{width: 100%; background: rgba(0,0,0,.9);margin-bottom: 200px;
+padding-top: 30px; padding-bottom: 50px;}
+#content .mainstory h3{font-size: 5em; font-weight: 700; text-align: center; color: rgb(173, 20, 20);
+text-shadow: 3px 5px 5px #fff; margin-bottom: 20px;}
+#content .mainstory p{font-size: 1.5em; font-weight: 400; text-align: center; color: #fff; width: 70%;
+margin: 0 auto;}
+
+/* step */
+#content .story{width: 90%; background: rgba(0,0,0,.9); margin: 0 5%; padding: 10% 0; margin-bottom: 120px;}
+
+#content .step span{font-size: 3em; font-weight: 500; color: #fff; background: rgb(165, 7, 7);
+width: 120px; padding: 30px; display: block; margin-bottom: 30px; border-radius: 10% 20%; text-align: center; } 
+#content .step p{font-size: 1.6em; font-weight: 400; color: #fff; border: 2px solid #d2d2d2;
+border-radius: 20% 10%; padding: 20px; text-align: center;}
+#content .step li{margin-bottom: 120px; padding-bottom: 20px; }
+
+#content .step li .contain{overflow: hidden;}
+#content .step .step1 .text,#content .step .step3 .text{float:left; width: 40%; margin:0 5%;}
+#content .step .step1 .img,#content .step .step3 .img{float: right; width: 40%; margin:0 5%;}
+#content .step .img img{width: 100%; margin-bottom: 100px;}
+#content .step .step2 .text{float:right; width: 40%; margin:0 5%;}
+#content .step .step2 .img{float: left; width: 40%;  margin:0 5%;}
+
+#content .step ul{ margin-top: 50px;}
+#content .step ul li{}
+#content .step ul li img{ border-radius: 10% 45% 40% 13% / 39% 20% 20% 28%; transition: all .5s ease;
+border: 2px solid rgb(141, 6, 6); width: 70%; }
+#content .step ul li img:hover{border-radius: 0; box-shadow: 3px 5px 10px rgba(255,0,0,.6);}
+
+#content .step .img{margin-right: 10%;}
+#content .step .img:hover img{filter: grayscale(.8); box-shadow: 10px 10px 7px rgba(255,255,255,.6);}
+#content .step .img img{transition: all .5s ease;}
+#content .step ul li{float: left; width:50% ; text-align: center;}
+#content .step .step2 ul li{float: left; width:33.33% ; text-align: center;}
+
+
+
+/* #content .step .step3{display: flex;} */
+
+#content .audio{background: rgba(0,0,0,.9); width: 100%; margin-bottom: 120px; padding-top: 100px; margin-top: 200px;}
+#content .audio h3{font-size: 4em; color: #fff; text-align: center; font-weight: 500; margin-bottom: 50px;}
+
+.audioBox{padding-bottom: 50px;}
+.audioBox img{width: 70%; filter: grayscale(100); margin-bottom: 30px; }
+.audioBox ul{overflow:hidden; margin-left: 370px;}
+.audioBox li{width: 25%; float: left; text-align: center;}
+.audioBox li a{display: block;}
+.audioBox ul span{display: block; font-size: 20px;padding: 10px 0; color: #fff;}
+      
+.audioBox .audio_control{width: 300px; border: 3px solid #ccc; margin: 30px auto;
+  border-radius: 30px; padding: 10px 0; text-align: center; font-size: 2em;}
+
+.audioBox .audio_control .play{color: #fff; margin-right: 60px;}
+.audioBox .audio_control .stop{color: #fff; margin-right: 0;}
+
+.audioBox li img.current {
+  animation:animationRotation1 2s .5s infinite linear;
+  filter: grayscale(0);}  
+        @keyframes animationRotation1 {
+          from {
+              transform:rotate(0deg) ;
+          }
+          to {
+              transform:rotate(360deg);
+          }
+      }  
+
+      @media screen and (max-width:1024px){
+        .audioBox li{width: auto; float: none;}   
+      }
+
+/* 변신 */
+
+@media screen and (max-width:1280px) {
+  /* 고정배경이미지 */
+   #wrap .backimg1{display: none;}
+   #wrap .backimg2{display: none;}
+   #wrap .backimg3{display: none;}
+   #wrap .backimg4{display: none;}
+  /* about */
+   #content .mainstory{padding-top: 20px; padding-bottom: 70px;}
+   /* step */
+   #content .step ul{display: none;}
+   #content .story{padding-bottom: 0;}
+   #content .step .step1 .text,#content .step .step3 .text{float:left; width: 50%; margin:0 5%;}
+   #content .step .step1 .img,#content .step .step3 .img{float: right; width: 30%; margin:120px 5% 0;}
+   #content .step .step2 .text{float:right; width: 50%; margin:0 5%;}
+   #content .step .step2 .img{float: left; width: 30%;  margin:120px 5% 0;}
+   #content .step p{font-size: 1.3em;}
+   #content .step li{margin-bottom: 0;}
+   /* OST */
+   .audioBox ul{margin: 0 auto; margin-left: 240px;}
+}
+
+      /* 테블릿 */
+@media screen and (max-width:1024px) {
+   /* step */
+   #content .story{width: auto; margin: 0;}
+
+   /* OST */
+   #content .audio h3{margin-bottom: 130px;}
+   .audioBox ul{margin-left: 20%;}
+   .audioBox li{width: 80%; margin-bottom: 50px;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+  #content .mainstory p{font-size: 1.3em;}
+  #content .step{margin:0 10%;}
+  #content .step .step1 .text,#content .step .step3 .text{float:none; width: auto; margin:0 0 30px;}
+  #content .step .step1 .img,#content .step .step3 .img{float: none; width: auto; margin:0;}
+  #content .step .step2 .text{float:none; width: auto;  margin:0 0 30px;}
+  #content .step .step2 .img{float: none; width: auto; margin:0;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}

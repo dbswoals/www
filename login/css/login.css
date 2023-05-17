@@ -1,0 +1,35 @@
+
+h1 img{display: block; position: relative; top: 100px; overflow: hidden; width: 154px;
+margin: 0 auto;}
+
+#content{ font-family: 'Noto Sans KR', sans-serif; background:#d3e9ff;width: 900px; height: 600px;
+position: relative; left: 0; top: 100px; margin: 0 auto; text-align: center; }
+#content h2{font-size: 2em; font-weight: 500; margin-top: 40px; padding-top: 50px;}
+#content h2::after{content: ''; width: 40px; height: 3px;background: #1b8ab3;display: block;
+position: absolute;bottom: 480px;left: 430px;}
+#content p{font-size: 1.2em; font-weight: 400; margin-top: 50px; margin-bottom: 50px;}
+
+#id{width: 450px; padding: 15px 5px 15px 20px; margin-bottom: 5px; box-sizing: border-box;
+border: 2px solid #eee;}
+#pass{width: 450px; padding: 15px 5px 15px 20px; margin-bottom: 5px; box-sizing: border-box;
+border: 2px solid #eee;}
+
+#login{width:450px; padding: 12px 0; border: 2px solid rgb(12,60,78); background: rgb(12,60,78);
+color: #fff; font-size: 1em; cursor: pointer; box-sizing: border-box; text-align: center;}
+
+#find{overflow: hidden; margin-top: 30px; position: relative; margin-bottom: 40px;}
+#find a{font-size: 1.2em; font-weight: 400;}
+#find a:nth-of-type(1){float: left; margin-left: 350px; display: block;}
+#find a:nth-of-type(1)::after{content: '';background: #bbb; width: 2px; height: 13px;
+position: absolute; right: 448px; top: 8px;}
+#find a:nth-of-type(1){margin-right: -300px; display: block;}
+
+#que span{font-size: 1.1em; font-weight: 400; float: left; margin-left: 300px;}
+#que a{font-size: 1.2em; font-weight: 500; color: rgb(12,60,78); position: relative; left: -140px;
+top: -2px;}
+
+
+
+
+
+

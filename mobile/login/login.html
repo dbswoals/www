@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://kit.fontawesome.com/b772748ffd.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <h1 class="hidden">롯데워터파크 로고<a href="../index.html"></a></h1>
+        <ul class="btn">
+            <li><a href=javascript:history.go(-1);><i class="fa-solid fa-arrow-left"></i></a></li>
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+        </ul>
+    </header>
+    <article id="content">
+        <h2>LOGIN</h2>
+        <p>회원가입시 등록하신 아이디와 비밀번호를 입력해주세요.</p>
+        <form action="" method="get">
+            <label for="id" class="hidden">아이디 입력</label>
+            <input type="text" id="id" name="id" placeholder="아이디를 입력하세요">
+            <label for="pass" class="hidden">비밀번호 입력</label>
+            <input type="text" id="pass" name="pass" placeholder="패스워드를 입력하세요">
+
+            <button type="submit" id="login">로그인</button>
+        </form> 
+
+        <div id="find">
+            <a href="#">아이디찾기</a>
+            <a href="#">비밀번호찾기</a>
+        </div>
+
+        <div id="que">
+            <span>아직 회원이 아니신가요?</span>
+            <a href="../member/member_check.html">회원가입</a>
+        </div>
+
+    </article>
+</body>
+</html>

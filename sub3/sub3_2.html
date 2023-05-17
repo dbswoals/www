@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코인이용 안내</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content2.css">
+
+    <script src="https://kit.fontawesome.com/b772748ffd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+    <div class="sub_visual visual">
+        <img src="./common/images/visual3.jpg" alt="">
+        <h3>이용정보</h3>   
+    </div>
+    <div class="sub_nav">
+        <ul>
+            <li><a href="./sub3_1.html">이용방법</a></li>
+            <li><a class="current" href="./sub3_2.html">코인이용 안내</a></li>
+            <li><a href="./sub3_3.html">이용요금</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fa-solid fa-house"></i> &gt; 이용정보 &gt; <strong>코인이용 안내</strong>
+            </div>
+            <h2>코인이용 안내</h2>
+            <p>롯데워터파크 코인시스템</p>
+            <p>RFID 팔찌의 형태로, 일정 금액을 미리 지불, 코인밴드에 충전하여
+                롯데워터파크 내의 대여소, 레스토랑, 상품점 등에서 이용하는 선불제
+                시스템입니다.</p>
+        </div>
+
+        <div class="coin pop">
+            <ul class="pop_menu">
+                <li>
+                    <a href="#">
+                        <img src="./images/coin1.jpg" alt="">
+                            <dl>
+                                <dt>코인충전</dt>
+                                <dd>Coin charging.</dd>
+                            </dl>
+                            <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/coin2.jpg" alt="">                   
+                            <dl>
+                                <dt>코인 사용</dt>
+                                <dd>Use Coin.</dd>
+                            </dl>
+                            <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="./images/coin3.jpg" alt="">                   
+                        <dl>
+                            <dt>코인 충전소</dt>
+                            <dd>Return of goods.</dd>                            
+                        </dl>
+                        <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/coin4.jpg" alt="">
+                        <dl>
+                            <dt>물품반납</dt>
+                            <dd>Coin charging station.</dd>
+                        </dl>
+                        <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                </li>               
+                <li>
+                    <a href="#">
+                    <img src="./images/coin5.jpg" alt="">
+                        <dl>
+                            <dt>환불</dt>
+                            <dd>Refund.</dd>
+                        </dl>
+                        <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/coin6.jpg" alt="">
+                        <dl>
+                            <dt>코인 정산소</dt>
+                            <dd>Settlement office</dd>
+                        </dl>
+                        <span>자세히 보기 <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </li>
+            </ul>                               
+                <div class="modal_box"  style="display: none;"></div>
+                <div class="pop_btn"  style="display: none;">
+                    <a class="pre" href="#"><span class="hidden">이전보기</span>&lt;</a>
+                    <a class="next" href="#"><span class="hidden">다음보기</span>&gt;</a>
+                </div>
+
+                <div class="popup"  style="display: none;">
+                    <img src="./images/coin2.jpg" alt="">
+                    
+                    <div class="txt">
+                      
+                    </div>
+
+                    <span>1/4</span>
+                    <a href="#" class="close_btn"><i class="fa-solid fa-xmark"></i><span class="hidden">닫기</span></a>
+                </div>
+        </div>
+
+
+        <div class="use">
+            <div class="use1">
+                <dl>
+                    <dt>롯데워터파크 이용방법</dt>
+                    <dd>이용권 구입, 락커 이용 정보도 함께 확인하고, 편리하게 이용하세요.</dd>
+                </dl>
+                <a href="#">바로가기</a>
+            </div>
+            <div class="use2">
+                <dl>
+                    <dt>롯데워터파크 운영시간</dt>
+                    <dd>오늘, 금주, 시즌별 운영시간을 미리 확인해 보세요</dd>
+                </dl>
+                <a href="#">바로가기</a>
+            </div>
+        </div>
+    </article>
+
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/pop1.js"></script>
+</body> 
+</html>

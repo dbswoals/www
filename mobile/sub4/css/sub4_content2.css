@@ -1,0 +1,33 @@
+/* 시설안내 내용 영역 */
+.sub1{width:100%; position: relative;  margin-top: 30px; margin-bottom: 20px;}
+.sub1 h3{font-size:1.5em; text-align: center;}
+.sub1 p{font-size: 1.2em; text-align: center; margin-top: 10px; margin-bottom: 40px;}
+.sub1 ul{margin: 0 15px;}
+.sub1 li{overflow: hidden; margin-bottom: 30px;}
+.sub1 dl{margin-left: 175px; }
+.sub1 img{ float: left; margin-right: 15px; width: 160px;}
+.sub1 dt{ font-size: 1.1em; font-weight: 500; color: #0064bf;}
+.sub1 dd{font-size: 1em; font-weight: 400;text-align: justify;}
+
+.sub1 li:nth-of-type(2) img{float: right; margin: 0 0 0 15px; }
+.sub1 li:nth-of-type(2) dl{margin-left:0; margin-right: 175px;}
+.sub1 li:nth-of-type(2) dt{ font-size: 1.1em; font-weight: 500;}
+.sub1 li:nth-of-type(2) dd{font-size: 1em; }
+
+.sub2{margin-bottom: 50px;}
+.sub2 h3{font-size: 1.5em; text-align: center;}
+.sub2 p{text-align: center; font-size: 1.2em;margin-top: 20px; margin-bottom: 40px;}
+.sub2 ul{margin: 0 15px; overflow: hidden;}
+.sub2 li{ float: left; width: 33.33%; text-align: center; } 
+.sub2 img{border-radius: 50%;}
+.sub2 dl{margin: 0 5px;}
+.sub2 dt{text-align: center; font-size: 1em; font-weight: 500; margin-top: 20px;}
+.sub2 dd{text-align:justify; font-size: .95em; font-weight: 400; margin-top: 20px;}
+
+.sub3{overflow: hidden; height: 200px; background: url(../images/aqua07.jpg) center bottom; background-size: cover;}
+.sub3 p{text-align: center; font-size: 2.5em; color: #fff; margin-top: 70px;
+font-weight: 500;}
+
+
+
+

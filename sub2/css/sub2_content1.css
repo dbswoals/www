@@ -1,0 +1,42 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif;}
+
+
+
+.img_box{margin-top: 120px; margin-bottom: 120px; position: relative;}
+.text_box{position:absolute; left:80px; top: 150px;}
+.text_box h3{font-size: 2.222em; font-weight: 700;}
+.text_box p{font-size: 1.563em; font-weight: 500;  } 
+
+.img_box ul{overflow: hidden;}
+.img_box li{float: left; margin: 25px ; margin-bottom: 30px; position: relative;}
+.img_box li:first-child{margin-left: 425px;}
+.img_box img{border-radius: 20px; box-shadow: 3px 1px 10px 1px; transition: all .5s ease;}
+.img_box li p { position:absolute; height: 350px; background: rgba(0,0,0,.6);
+   top: 0; left:0; width: 100%; font-size: 2em; border-radius: 20px;
+   text-align: center; color: #fff; opacity: 0; transition: all .5s ease;}
+.img_box li:hover p{opacity: 1;}
+.img_box li:hover img{ transform: scale(.98);}
+.img_box li p span{display: block; margin-top: 150px;}
+
+.more{}
+.more ul{}
+.more li{overflow: hidden;margin-bottom: 120px; }
+.more li img{float: left; position: relative;}
+.more dl{}
+.more dt{font-size: 2em; font-weight: 700; margin-top: 60px; margin-left: 450px;}
+.more dd{font-size: 1.3em; font-weight: 400; margin-left: 450px; margin-top: 10px; width: 500px;}
+
+.more .more1{}
+.more .more1 img{float: right;}
+.more dl{}
+.more1 dt{margin-left:150px;}
+.more1 dd{margin-left:150px;}
+
+
+
+
+
+
+

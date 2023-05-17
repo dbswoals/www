@@ -1,0 +1,18 @@
+/* 시설안내 내용 영역 */
+#content{ font-family: 'Noto Sans KR', sans-serif;}
+.content_area{margin-top: 120px;}
+
+.title_area{margin-bottom: 120px;}
+.content_area p{font-size: 1.5em; font-weight: 500; margin-bottom: 70px;}
+
+.tiki{}
+.tiki li{height: 400px;}
+.tiki li img{border-radius: 20px;}
+.tiki li::before{content: ''; display: block; width: 1200px; height: 2px; position: relative;
+left:0; top:-40px; background: #999;}
+.tiki li:nth-of-type(5)::after{content: ''; display: block; width: 1200px; height: 2px; position: relative;
+    left:0; top:-150px; background: #999;}
+.tiki dl{position: relative; left: 350px; top: -250px; width: 800px;  }
+.tiki dt{font-size: 2em; font-weight: 500; color: #0064bf; margin-bottom: 20px;}
+.tiki dt span{font-size: 1.5em;}
+.tiki dd{font-size: 1.25em; font-weight: 400;}

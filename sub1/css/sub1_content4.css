@@ -1,0 +1,34 @@
+/* 시설안내 내용 영역 */
+
+#content{ font-family: 'Noto Sans KR', sans-serif; }
+
+
+.tap{margin: 0 auto;  margin-bottom: 120px;}
+.tap ul{width: 800px; overflow: hidden; margin: 0 auto; text-align: center;}
+.tap li{width: 50%; float: left; font-size: 1.25em;}
+.tap a{display: block; padding: 30px; border: 1px solid #ccc;} 
+.tap a:hover{background: #999; color: #fff;}
+
+.map{}
+.title_area{margin-bottom: 120px;}
+.map{}
+#map_content1{margin: 0 auto 120px;}
+
+#subway{margin: 0 auto; text-align: center;}
+#subway p{font-weight: 500; font-size: 2em; margin-bottom: 80px;}
+#subway img{margin-bottom: 70px;}
+#subway ul{overflow: hidden; margin-bottom: 70px; position: relative;}
+#subway li{float: left; font-size: 1.5em; font-weight: 400; width: 33.33%; position: relative;}
+#subway ul:nth-of-type(1) li{border: 2px solid #0064bf;box-sizing: border-box; width: 150px; height: 150px;
+margin-left: 200px; border-radius:50%;  padding-top: 55px; z-index: 10; background: #fff;}
+#subway ul:nth-of-type(1)::after{content: ''; display: block; border: 1px solid #666; 
+display: block; width:550px; height: 1px; background: #666; position: absolute; left: 350px; top: 70px;
+z-index: 0;}
+
+#subway dl{padding:0 100px 0;}
+#subway dt{font-weight: 500; font-size: 1.125em; color: #0064bf; margin-bottom: 10px; position: relative; }
+#subway dl::after {width: 1px; height: 150px; display: block; background: #ccc; content: ''; border: 1px solid #ccc; position:absolute; right: 0; top: -30px;}
+#subway li:nth-of-type(3) dl::after{content: ''; display: none;}
+#subway dd{text-align: center; font-weight: 400; font-size: .7em; }
+
+
