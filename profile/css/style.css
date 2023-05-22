@@ -9,9 +9,18 @@ img { border:0;}
 body { font:12px/1.6 arial; color:#555; } 
 .hidden{display: none;}
 
+/* 소개 */
+.main-text {
+    font-size: 7em;
+    color: #333;
+    text-align: justify;
+    margin: 250px auto;
+    line-height: 2em;
+    padding-left: 5em;
+}
 /*로고*/
 h1 { position:fixed; top:50px; left:50px; z-index:10;}
-h1 img { width:200px; height:auto;}
+h1 a { width:200px; height:auto; display: block; position: relative; left: -40px; bottom: 80px;}
 
 /*sns*/
 #sns { position:fixed; top:40px; right:50px; z-index:14;}
@@ -66,12 +75,13 @@ section:nth-child(4) span { color:#111;}
 
 /*두 번째 박스 이미지*/
 .profile{overflow: hidden; }
-.profile_inner{padding: 10% 0; margin-left: 370px ; float: left;}
-.profile_img{overflow: hidden; border-radius: 4% 95% 6% 95%/95% 4% 92% 5%; border: 5px solid #333;}
-.profile_img img{display: block; width: 100%;}
+.profile_inner{padding: 10% 0; margin-left: 370px ; float: left; width: 23%;}
+.profile_img{overflow: hidden; border-radius: 4% 95% 6% 95%/95% 4% 92% 5%; border: 5px solid #333;
+box-sizing: border-box; margin:30px 0;}
+.profile_img img{width: 100%; display: block;}
 
 .profile a{display:block; float: left; margin-left: 20px; font-size: 1.5em; background: rgb(15, 122, 15);
-color: #fff; padding: 7px; margin-top: 20px; border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+color: #fff; padding: 7px; margin-top:40px; border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
 transition: all .5s ease;}
 .profile a:hover{background: #fff; color: rgb(15, 122, 15); border: 1px solid rgb(15, 122, 15);}
 
@@ -113,6 +123,10 @@ width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
 .pc1 .color .sub_color{background: #99ccff;} 
 .pc1 .color .font_color{background: #333;}
 
+.pc1 .font{margin-bottom: 5%;}
+.pc1 .font dt{font-size: 1.8em; margin:10px 0; font-weight: 600; }
+.pc1 .font dd{font-size: 1.8em;}
+
 .pc1 .day{margin-bottom: 5%;}
 .pc1 .day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .pc1 .day dd{font-size: 1.8em;}
@@ -121,14 +135,14 @@ width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
 .pc1 .skill dd{font-size: 1.8em;}
 
 .pc2{width: 47%; float: left; }
-.pc2 img:nth-child(1){width: 100%; margin: 80px 0 0 80px; position: relative; z-index: 10; right:5%; margin-top: 120px;}
-.pc2 img:nth-child(2){width: 36%; position: absolute; z-index: 1; right:5%; bottom: 17%; height: 360px;}
+.pc2 img:nth-child(1){width: 100%; margin: 80px 0 0 80px; position: relative; z-index: 10; right:5%; margin-top: 160px;}
+.pc2 img:nth-child(2){width: 36%; position: absolute; z-index: 1; right:5%; bottom: 19%; height: 360px;}
 /*네 번째 박스 이미지 */
 .mobile{position: relative;overflow: hidden;}
 .mobile article{ position: absolute; left: 15%; top: 16%;}
 .mobile .mobile1{width: 30%; margin-left: 5%; float: left;}
-.mobile .mobile1 img:nth-child(1){width: 18.2%; position: absolute; left: 12.4%; top: 2%; z-index: 1;}
-.mobile .mobile1 img:nth-child(2){width: 70%; margin:0 0 0 20%; position: relative; 
+.mobile .mobile1 img:nth-child(1){width: 18.2%; position: absolute; left: 12.4%; top: 7%; z-index: 1;}
+.mobile .mobile1 img:nth-child(2){width: 70%; margin:3em 0 0 20%; position: relative; 
     bottom: 5%; z-index: 10; overflow: hidden;}
 .mobile_back{background: url(../images/waterlogo.png) no-repeat 40% 5%; display: block; width: 100%;
     height: 100%; position: absolute; left: 33%; bottom: 27%; opacity: .5; background-size: 35%; z-index: -1;}
@@ -152,6 +166,10 @@ width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
 .mobile2 .m_day{margin-bottom: 5%;}
 .mobile2 .m_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .mobile2 .m_day dd{font-size: 1.8em;}
+
+.mobile .m_font{margin-bottom: 5%;}
+.mobile .m_font dt{font-size: 1.8em; margin:10px 0; font-weight: 600; }
+.mobile .m_font dd{font-size: 1.8em;}
 
 .mobile2 .m_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .mobile2 .m_skill dd{font-size: 1.8em;}
@@ -180,6 +198,10 @@ width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
 .media .media_day{margin-bottom: 5%;}
 .media .media_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .media .media_day dd{font-size: 1.8em;}
+
+.media .media_font{margin-bottom: 5%;}
+.media .media_font dt{font-size: 1.8em; margin:10px 0; font-weight: 600; }
+.media .media_font dd{font-size: 1.8em;}
 
 .media .media_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .media .media_skill dd{font-size: 1.8em;}
@@ -214,6 +236,10 @@ width: 70px; padding: 10px 0 10px 0; transition: all .5s ease;}
 .wp1 .wp_day{margin-bottom: 5%;}
 .wp1 .wp_day dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .wp1 .wp_day dd{font-size: 1.8em;}
+
+.wp1 .wp_font{margin-bottom: 5%;}
+.wp1 .wp_font dt{font-size: 1.8em; margin:10px 0; font-weight: 600; }
+.wp1 .wp_font dd{font-size: 1.8em;}
 
 .wp1 .wp_skill dt{font-size: 1.8em; font-weight: 600; margin: 10px 0;}
 .wp1 .wp_skill dd{font-size: 1.8em;}
